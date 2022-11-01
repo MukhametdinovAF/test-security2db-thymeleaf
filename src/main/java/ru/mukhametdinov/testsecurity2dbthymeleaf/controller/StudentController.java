@@ -48,7 +48,6 @@ public class StudentController {
         Student student = new Student();
         if (optionalStudent.isPresent()){
             student = optionalStudent.get();
-
         }
         mav.addObject("student",student);
         return mav;
